@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1680556586135956204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1292751182382635539}
+  - component: {fileID: 7168023826960608760}
+  m_Layer: 0
+  m_Name: EnableAndDisable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292751182382635539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680556586135956204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7168023826960608760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680556586135956204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b70352c6963b494ba5234abc26ab23c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SomeObject: {fileID: 0}
+  SomeEnum: 0
+  IsToggled: 0
+  Info: {x: 0, y: 0}
+  Error: {x: 0, y: 0}
+  Warning: {x: 0, y: 0}
+  DisableIfToggled: 0
+  EnabledWhenNull: {x: 0, y: 0, z: 0}
+  DisableWithExpression: 0
+  InstanceInScene: Instances of prefabs in scenes
+  InstanceInPrefab: Instances of prefabs nested inside other prefabs
+  Regular: Regular prefab assets
+  Variant: Prefab variant assets
+  NonPrefabInstance: Non-prefab component or gameobject instances in scenes
+  PrefabInstance: Instances of regular prefabs, and prefab variants in scenes or
+    nested in other prefabs
+  PrefabAsset: Prefab assets and prefab variant assets
+  PrefabInstanceAndNonPrefabInstance: Prefab Instances, as well as non-prefab instances
+  A: {fileID: 0}
+  B: {fileID: 0}
+  InlineObject: {fileID: 11400000, guid: 5461fa71999795642abd68977e27adc3, type: 2}
+  A2: 0
+  B2: {fileID: 0}
+  IsToggled2: 0
+  Info2: {x: 0, y: 0}
+  Error2: {x: 0, y: 0}
+  Warning2: {x: 0, y: 0}
+  EnableIfToggled: 0
+  EnabledWhenHasReference: {x: 0, y: 0, z: 0}
+  EnableWithExpression: 0
+  InstanceInScene2: Instances of prefabs in scenes
+  InstanceInPrefab2: Instances of prefabs nested inside other prefabs
+  Regular2: Regular prefab assets
+  Variant2: Prefab variant assets
+  NonPrefabInstance2: Non-prefab component or gameobject instances in scenes
+  PrefabInstance2: Instances of regular prefabs, and prefab variants in scenes or
+    nested in other prefabs
+  PrefabAsset2: Prefab assets and prefab variant assets
+  PrefabInstanceAndNonPrefabInstance2: Prefab Instances, as well as non-prefab instances
